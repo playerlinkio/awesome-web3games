@@ -1,8 +1,8 @@
 {
-  "name": "nextjs-ts-reduxtookit-tailwindcss",
+  "name": "web3-front-end-template",
   "version": "0.0.1",
   "description": "Simple starter template",
-  "author": "henryliu",
+  "author": "web3henry",
   "license": "GPL3",
   "scripts": {
     "dev": "next",
@@ -14,12 +14,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.4.1",
-    "@heroicons/react": "^1.0.4",
-    "@tailwindcss/aspect-ratio": "^0.4.0",
-    "@tailwindcss/forms": "^0.5.2",
-    "@tailwindcss/line-clamp": "^0.4.0",
-    "@tailwindcss/typography": "^0.5.2",
     "jotai": "^1.7.2",
     "next": "^12.1.6",
     "next-i18next": "^11.0.0",
@@ -27,6 +21,12 @@
     "react-dom": "18.1.0"
   },
   "devDependencies": {
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.4",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.2",
     "@testing-library/jest-dom": "^5.0.0",
     "@testing-library/react": "^12.1.0",
     "@testing-library/user-event": "^13.0.0",
