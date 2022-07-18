@@ -18,23 +18,23 @@ const IndexPage: NextPage = () => {
             <title>david</title>
             <link rel="icon" href="/favicon.ico" />
           </Head>
-              {/*<Home></Home>*/}
+              <Home></Home>
         </div>
-          <Link
-              href='/'
-              locale={router.locale === 'en' ? 'de' : 'en'}
-          >
-              <button>
-                  {t('change-locale')}
-              </button>
-          </Link>
-          <Link href='/second'>
-              <button
-                  type='button'
-              >
-                  {t('to-second-page')}
-              </button>
-          </Link>
+          {/*<Link*/}
+          {/*    href='/'*/}
+          {/*    locale={router.locale === 'en' ? 'de' : 'en'}*/}
+          {/*>*/}
+          {/*    <button>*/}
+          {/*        {t('change-locale')}*/}
+          {/*    </button>*/}
+          {/*</Link>*/}
+          {/*<Link href='/second'>*/}
+          {/*    <button*/}
+          {/*        type='button'*/}
+          {/*    >*/}
+          {/*        {t('to-second-page')}*/}
+          {/*    </button>*/}
+          {/*</Link>*/}
       </main>
   )
 }
